@@ -1,0 +1,22 @@
+{
+  "name": "mdn-course",
+  "version": "1.0.0",
+  "description": "My work while going through the Mozilla Developer Network learning area",
+  "main": "add-list-item.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darman12/mdn-course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darman12/mdn-course/issues"
+  },
+  "homepage": "https://github.com/darman12/mdn-course#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
