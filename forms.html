@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-US" id="test">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <meta name="author" content="Spencer Freebairn">
+   <meta name="description" content="">
+   
+   <meta property="og:image" content="">
+   <meta property="og:description" content="">
+   <meta property="og:title" content="Forms">
+
+   <link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png">
+   <link rel="stylesheet" href="styles.css">
+
+   <title>MDN Course Work</title>
+</head>
+
+<body>
+
+   <header><h1>Forms</h1></header>
+   
+   <nav>
+      <ul>
+        <a href="index.html">Home</a>
+        <a href="tables.html">Tables</a>
+      </ul>
+   </nav>
+  
+   <main>
+      <p>Forms page</p>
+
+      <form action="/handling-form-page" method="post">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name" value="John Doe">
+        </div>
+        <div>
+          <label for="mail">Email:</label>
+          <input type="email" id="mail" name="user_mail">
+        </div>
+        <div>
+          <label for="msg">Message:</label>
+          <textarea id="msg" name="user_message">Hello there!</textarea>
+        </div>
+        <div id="button">
+          <button type="submit">Send your message</button>
+        </div>
+      </form>
+
+   </main>
+
+   <footer>
+      <button id="swap-theme-button">Light Theme</button>
+   </footer>
+
+   <!-- It's best to place the script element at the bottom of the body to ensure that all the HTML content has been loaded by the browser before it tries to run any of the scripts -->
+   <script src="swap-theme.js"></script>
+</body>
+</html>

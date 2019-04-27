@@ -29,6 +29,10 @@ html {
   tr:nth-child(odd) td {
     background-color: rgb(245,245,245);
   }
+
+  tfoot {
+    font-weight: bold;
+  }
   
   caption {
     padding: 10px;
