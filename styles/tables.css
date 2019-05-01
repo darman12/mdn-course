@@ -7,6 +7,11 @@ html {
     border: 2px solid rgb(200,200,200);
     letter-spacing: 1px;
     font-size: 0.8rem;
+    color: black;
+  }
+
+  table caption {
+    color: grey;
   }
   
   td, th {
